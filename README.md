@@ -32,5 +32,5 @@ This application is a port of the Transmission daemon for Android complemented w
 
 Open the local.properties file in a text editor and enter the valid paths to ndk.dir, sdk.dir, depends and keystore, set the keystore properties.
 
-    $ cd transmissionbtc
+    $ cd transmissionsrv
     $ gradle cleanAll assembleRelease
