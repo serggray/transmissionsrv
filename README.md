@@ -22,13 +22,13 @@ This application is a port of the Transmission daemon for Android complemented w
 
 ### Build dependencies
 
-    $ git clone https://github.com/AndreyPavlenko/android-build.git
+    $ git clone https://github.com/serggray/android-build.git
     $ export ANDROID_BUILD_ROOT="$PWD/android-build"
     $ cd "$ANDROID_BUILD_ROOT/packages/transmission"
     $ ./build.sh all
 
 ### Build the apks
-    $ git clone https://github.com/AndreyPavlenko/transmissionbtc.git
+    $ git clone https://github.com/serggray/transmissionsrv.git
 
 Open the local.properties file in a text editor and enter the valid paths to ndk.dir, sdk.dir, depends and keystore, set the keystore properties.
 
